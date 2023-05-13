@@ -4,6 +4,8 @@
   text-align: center;
   box-shadow: var(--shadow);
   transition: transform 0.2s linear;
+  display: flex;
+    flex-direction: column;
 }
 
 /* .project:hover {
@@ -46,4 +48,8 @@
 
 .project .link--icon {
   margin-left: 0.5em;
+}
+
+.project__fill {
+  flex: 1;
 }

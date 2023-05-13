@@ -34,25 +34,29 @@ const ProjectContainer = ({ project }) => (
 
     <p className='project__description'>{project.description}</p>
 
-    {project.sourceCode && (
-      <a
-        href={project.sourceCode}
-        aria-label='source code'
-        className='link link--icon'
-      >
-        <GitHubIcon />
-      </a>
-    )}
+    <div className='project__fill' />
 
-    {project.livePreview && (
-      <a
-        href={project.livePreview}
-        aria-label='live preview'
-        className='link link--icon'
-      >
-        <LaunchIcon />
-      </a>
-    )}
+    <div>
+      {project.sourceCode && (
+        <a
+          href={project.sourceCode}
+          aria-label='source code'
+          className='link link--icon'
+        >
+          <GitHubIcon />
+        </a>
+      )}
+
+      {project.livePreview && (
+        <a
+          href={project.livePreview}
+          aria-label='live preview'
+          className='link link--icon'
+        >
+          <LaunchIcon />
+        </a>
+      )}
+    </div>
   </div>
 )
 
