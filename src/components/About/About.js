@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import GitHubIcon from '@material-ui/icons/GitHub'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
+import CodeIcon from '@material-ui/icons/Code'
 import { about } from '../../portfolio'
 import './About.css'
 
@@ -26,7 +27,7 @@ const About = () => {
 
       <div className='about__contact center'>
         {resume && (
-          <a href={resume}>
+          <a target='_blank' href={resume} rel='noreferrer'>
             <span type='button' className='btn btn--outline'>
               Resume
             </span>
@@ -40,6 +41,8 @@ const About = () => {
                 href={social.github}
                 aria-label='github'
                 className='link link--icon'
+                target='_blank'
+                rel='noreferrer'
               >
                 <GitHubIcon />
               </a>
@@ -50,10 +53,22 @@ const About = () => {
                 href={social.linkedin}
                 aria-label='linkedin'
                 className='link link--icon'
+                target='_blank'
+                rel='noreferrer'
               >
                 <LinkedInIcon />
               </a>
             )}
+
+            <a
+              href='https://stackoverflow.com/users/419194/austin-gayler'
+              aria-label='StackOverflow'
+              className='link link--icon'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <CodeIcon />
+            </a>
           </>
         )}
       </div>
