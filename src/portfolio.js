@@ -24,8 +24,7 @@ const projects = [
     description:
       'iOS/Android application to assist stroke detection study participants and help them set up IoT device with local WiFi credentials via Bluetooth',
     stack: ['React Native', 'TypeScript', 'Expo', 'Bluetooth'],
-    livePreview:
-      'https://play.google.com/store/apps/details?id=com.zeitmedical.zash&hl=en&gl=US',
+    livePreview: 'https://apps.apple.com/us/app/zash-study/id6443660746',
     img: '/zash.jpg',
   },
   {
