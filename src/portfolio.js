@@ -9,7 +9,7 @@ const about = {
   role: 'Software Engineer',
   description:
     "I'm a software engineer with a focus on the front-end. I've worked across numerous business domains, and have an eye for responsive, pixel-perfect design in websites that are a pleasure to use. My background is in computer science (though my interest in technology began far before that), and my experience across the whole software stack allow me to work with everything from websites for smaller business to complex web applications.",
-  resume: 'https://austingayler.github.io/cv.pdf',
+  resume: 'https://austingayler.github.io/Austin_Gayler_CV.pdf',
   social: {
     linkedin: 'https://www.linkedin.com/in/austin-gayler-661ba092/',
     github: 'https://github.com/austingayler',
@@ -50,6 +50,15 @@ const projects = [
     img: '/wac.jpg',
   },
 
+  {
+    name: 'Paragliding Theory Study App',
+    description:
+      'App for web and mobile to help study for the SHV/FSVL theory exam',
+    stack: ['React Native', 'Expo', 'Web Scraping'],
+    sourceCode:
+      'https://github.com/austingayler/SHV-FSVL-Theory-Practice-Questions',
+    img: '/shv.jpg',
+  },
   {
     name: 'GAN Training',
     description:
@@ -133,6 +142,14 @@ const projects = [
       'Script to download recommended music based on your Last.fm history',
     stack: ['Java', 'Last.fm API'],
     sourceCode: 'https://github.com/austingayler/rec_me',
+  },
+  {
+    name: 'MIPS Compiler',
+    description:
+      'A project written in Python to compile the Micro language to machine code',
+    stack: ['Python', 'Assembly', 'Grammars'],
+    sourceCode: 'https://github.com/austingayler/compliers',
+    img: '/asm.png',
   },
   {
     name: 'MSU Exponent Blog',
