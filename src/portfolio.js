@@ -58,6 +58,8 @@ const projects = [
     sourceCode:
       'https://github.com/austingayler/SHV-FSVL-Theory-Practice-Questions',
     img: '/shv.jpg',
+    livePreview:
+      'https://austingayler.github.io/SHV-FSVL-Theory-Practice-Questions/',
   },
   {
     name: 'GAN Training',

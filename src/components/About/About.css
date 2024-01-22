@@ -29,6 +29,10 @@
   margin-right: 1em;
 }
 
+.about__contact>.link--icon svg {
+  font-size: 2.5rem;
+  padding-bottom: 0;
+}
 @media (max-width: 600px) {
   .app .about {
     align-items: flex-start;
